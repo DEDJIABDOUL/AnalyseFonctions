@@ -28,13 +28,15 @@ git clone https://github.com/DEDJIABDOUL/AnalyseFonctions.git
 cd AnalyseFonctions
 
 2. Créer un environnement virtuel et l’activer :
+```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1   # Windows PowerShell
 
 
 3. Installer les dépendances :
-
+```bash
 pip install -r requirements.txt
 
 4. Lancer l’application
+```bash
 streamlit run app.py
